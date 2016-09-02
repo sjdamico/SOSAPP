@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ctm.sosapp.MainActivity"
+    android:gravity="top">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Personal_text"
+            android:text="@string/Personal_text"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/name_text"
+            android:text="@string/name_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Spouse_text"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Spouse_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Home_Phone"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Home_Phone"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Address_Street"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Address_Street"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/City_text"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/City_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Medical_text"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Medical_text"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Heart_Issue"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Heart_Issue"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Allergy_2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Allergy_2"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Allergy_1"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/Allergy_1"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SOS APP</string>
+    <string name="Personal_text">Personal Information</string>
+    <string name="name_text">Name: Steve D\'Amico</string>
+    <string name="Spouse_text">Spouse: Jan D\'Amico</string>
+    <string name="Home_Phone">Home Phone: (815) 527-5094</string>
+    <string name="Address_Street">Street Addres: 624 Handel Lane</string>
+    <string name="City_text"> City: Woodstock, IL</string>
+    <string name="Medical_text">Medical Information</string>
+    <string name="Heart_Issue">Atrial Afib Heart Condition</string>
+    <string name="Allergy_2">Allergic to Sulfa Drugs</string>
+    <string name="Allergy_1">Allergic to Penicillin</string>
+    <string name="Diabetic_text">Diabetic II</string>
+</resources>
